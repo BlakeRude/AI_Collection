@@ -34,7 +34,7 @@ def printBoard(b):
         print()
     print("0 1 2 3 4 5 6   Row Input")
 
-def evalBoard(b): #Currently doesnt look for vertical or diagonal wins (ONLY HORIZONTAL)
+def evalBoard(b):
     countx = 0
     countt = 0
     # Horizontal Check
